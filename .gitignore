@@ -1,0 +1,25 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs y temporales
+*.log
+*.tmp
+log.txt
+
+# Credenciales y archivos sensibles
+.env
+*.env
+credentials.json
+secrets/
+
+# Copias de respaldo
+*.bak
+*~
+backup/

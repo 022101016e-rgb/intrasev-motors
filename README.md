@@ -24,7 +24,7 @@ Sistema interno de gestión para la oficina de **Intrasev Motors**. Aplicación 
 
 ## 🚀 Uso
 
-1. Abre el archivo `index.html` directamente en el navegador (doble clic), o
+1. Abre el archivo `src/index.html` directamente en el navegador (doble clic), o
 2. Sírvelo con cualquier servidor estático:
 
 ```bash
@@ -36,8 +36,10 @@ Luego visita `http://localhost:8080`.
 ## 📁 Estructura
 
 ```
-intrasevmotors_oficina/
-├── index.html      # Aplicación completa (HTML + CSS + JS)
+intrasev-motors/
+├── docs/           # Documentación del proyecto
+├── src/            # Código fuente
+│   └── index.html  # Aplicación completa (HTML + CSS + JS)
 ├── README.md
 └── .gitignore
 ```

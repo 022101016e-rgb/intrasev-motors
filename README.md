@@ -1,49 +1,34 @@
-# Intrasev Motors — Oficina
+# Sistema de Comercio Electrónico y Gestión de Contenidos para Intrasev Motors
 
-Sistema interno de gestión para la oficina de **Intrasev Motors**. Aplicación web ligera (un solo archivo HTML) que corre directamente en el navegador y guarda los datos localmente en el dispositivo.
+## Problema
+Actualmente, Intrasev Motors no cuenta con una tienda virtual ni con un canal de venta en línea, por lo que la exhibición de productos y la atención a los clientes se realiza únicamente de forma presencial. Esta situación limita el alcance geográfico de la empresa, reduce su visibilidad frente a competidores que ya operan con páginas web y redes sociales de venta (Facebook, eBay), y dificulta que los clientes conozcan el catálogo completo de motores y repuestos antes de acercarse al local. A esto se suma una estrategia de publicidad poco desarrollada, lo que reduce la posibilidad de captar nuevos segmentos de clientes.
 
-## 🚗 Módulos
+## Objetivo
+Desarrollar un sistema de comercio electrónico integrado con un CMS para Intrasev Motors, que permita exhibir y vender motores y repuestos en línea, con la finalidad de ampliar el alcance de mercado, reducir los tiempos de gestión de venta y fortalecer la competitividad digital de la empresa.
 
-| Módulo | Descripción |
-| ------ | ----------- |
-| 🚗 **CLM 2000** | Control de ventas y productos. Registro de ventas, canjes de unidades gratis (1 por cada 6 vendidos), inventario y alertas de stock. |
-| 💰 **Finanzas** | Resumen de ventas por día, semana y mes, con historial de movimientos y búsqueda por cliente. |
+## Alcance
+### El sistema incluirá:
+- Catálogo digital de motores y repuestos con búsqueda y filtros
+- Registro y gestión de clientes
+- Carrito de compras y generación de órdenes de compra
+- Pago en línea
+- Panel administrativo (CMS) para gestión de productos e inventario
+- Reportes básicos de ventas
 
-## ✨ Características
+### El sistema no incluirá inicialmente:
+- Integración con marketplaces externos (eBay, Amazon, etc.)
+- Aplicación móvil nativa (solo diseño web responsive)
+- Módulo de logística de envíos internacionales
 
-- 💾 **Sin servidor ni base de datos**: los datos se almacenan con `localStorage` del navegador.
-- 📱 **Responsivo**: diseño adaptable para uso desde el celular o la computadora.
-- 🔍 **Búsqueda en tiempo real** en productos y finanzas.
-- 🎁 **Promoción automática**: control de unidades gratis (1 por cada 6 CLM 2000 vendidos).
-- 📦 **Alertas de stock**: estados visuales para stock agotado, bajo u óptimo.
+## Integrantes
+- Triveños Llaccta Richard
+- Sullca Caballero Jean Pol
+- Guillen Hurtado Jhon Richard
+- Daniel Puma Ucharo Frank
+- Mamani Apaza Renato Aldair
 
-## 🛠️ Requisitos
+## Tecnologías previstas
+- Por definir
 
-- Navegador web moderno (Chrome, Firefox, Edge, Safari).
-- No requiere instalación de dependencias ni servidor.
-
-## 🚀 Uso
-
-1. Abre el archivo `src/index.html` directamente en el navegador (doble clic), o
-2. Sírvelo con cualquier servidor estático:
-
-```bash
-python3 -m http.server 8080
-```
-
-Luego visita `http://localhost:8080`.
-
-## 📁 Estructura
-
-```
-intrasev-motors/
-├── docs/           # Documentación del proyecto
-├── src/            # Código fuente
-│   └── index.html  # Aplicación completa (HTML + CSS + JS)
-├── README.md
-└── .gitignore
-```
-
-## ℹ️ Nota
-
-Los datos se guardan únicamente en el navegador donde se usa la aplicación (`localStorage`). No hay persistencia en servidor ni sincronización entre dispositivos.
+## Estado
+Proyecto en etapa inicial.
